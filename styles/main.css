@@ -1,3 +1,36 @@
+
+
+.navHeader {
+    background-color: white;
+
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+    position: fixed;
+     top: 0;
+     height: 50px;
+    width: 100%;
+    align-items: center;
+
+}
+   
+   
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.navLinks li {
+list-style: none;
+padding: 0;
+
+}
+
 body {
-    background: lightblue;
+    margin: 0;
+    padding: 0;
+
 }
