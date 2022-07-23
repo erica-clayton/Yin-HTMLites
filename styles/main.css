@@ -5,15 +5,32 @@ body {
 }
 
 .img-cont {
-    padding: 20px;
+    padding: 2%;
     background-color: red;
-    width: 30%;
+    width: 15%;
     margin: auto;
-
 }
 
 img {
-    margin: auto;
-    display: block;
-    width: 35%;
+    width: 100%;
+}
+
+.page-desc {
+    text-align: center;
+    background-color: red;
+}
+
+.proj-memb {
+    text-align: center;
+    background-color: red;
+}
+
+.proj-memb ul {
+    display: flex;
+    justify-content: center;
+}
+
+.proj-memb li {
+    list-style: none;
+    margin-right: 25px;
 }
