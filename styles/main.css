@@ -1,3 +1,27 @@
+
+
+.navHeader {
+    background-color: white;
+     border-top: 1px solid black;
+     border-bottom: 1px solid black;
+    position: fixed;
+     top: 0;
+     height: 50px;
+    width: 100%;
+    align-items: center;
+}
+    .navLinks {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0;    
+    }
+    
+    .navLinks li {
+    list-style: none;
+    padding: 0;
+    }
+    
 /* Color selections: white, #f7fff7,#292f36, #4ecdc4, #ff6b6b, #ffe66d,   */
 
 body {
@@ -62,3 +86,5 @@ img {
     margin: 20px auto 20px auto;
     text-align: center;
 }
+   
+   
