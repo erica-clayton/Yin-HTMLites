@@ -1,9 +1,26 @@
 body {
+    margin: 0;
+    padding: 0;
     background: lightblue;
 }
 
+<<<<<<< HEAD
 
 .activity-img {
     width: 150px;
     
+=======
+.img-cont {
+    padding: 20px;
+    background-color: red;
+    width: 30%;
+    margin: auto;
+
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 35%;
+>>>>>>> 412e23800f20baca60aa1592c57e73b5e37826e1
 }
