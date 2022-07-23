@@ -1,3 +1,19 @@
 body {
+    margin: 0;
+    padding: 0;
     background: lightblue;
+}
+
+.img-cont {
+    padding: 20px;
+    background-color: red;
+    width: 30%;
+    margin: auto;
+
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 35%;
 }
