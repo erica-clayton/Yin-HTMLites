@@ -4,29 +4,43 @@ body {
     background: lightblue;
 }
 
-
 .img-cont {
-    padding: 20px;
+    padding: 2%;
     background-color: red;
-    width: 30%;
+    width: 15%;
     margin: auto;
-    
 }
 
 img {
-    margin: auto;
-    display: block;
-    width: 35%;
+    width: 100%;
 }
 
+.page-desc {
+    text-align: center;
+    background-color: red;
+}
 
+.proj-memb {
+    text-align: center;
+    background-color: red;
+}
+
+.proj-memb ul {
+    display: flex;
+    justify-content: center;
+}
+
+.proj-memb li {
+    list-style: none;
+    margin-right: 25px;
+}
 
 .activity-img {
     width: 150px;
     margin: 10px;
     border-radius: 10px;
     border: 1px solid black;
-    
+
 }
 
 .activity-card {
@@ -45,4 +59,3 @@ img {
     margin: 20px auto 20px auto;
     text-align: center;
 }
-
