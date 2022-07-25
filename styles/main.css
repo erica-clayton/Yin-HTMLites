@@ -35,6 +35,7 @@ body {
     font-family: 'PT Serif', serif;
 }
 
+
 .img-cont {
     padding: 1%;
     border: 10px solid #ff6b6b;
@@ -42,6 +43,10 @@ body {
     margin: 75px auto 0px;
     border-radius: 20px;
     box-shadow: 0 0 8px grey;
+}
+
+.img-east{
+    width: 65%;
 }
 
 img {
