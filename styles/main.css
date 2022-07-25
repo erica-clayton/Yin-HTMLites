@@ -38,6 +38,13 @@ body {
     margin: auto;
 }
 
+.img-north {
+    padding: 2%;
+    background-color: red;
+    width: 65%;
+    margin: auto;
+}
+
 img {
     width: 100%;
 }
@@ -63,17 +70,16 @@ img {
 }
 
 .activity-img {
-    width: 150px;
+    width: 300px;
     margin: 10px;
     border-radius: 10px;
     border: 1px solid black;
-
 }
 
 .activity-card {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 65%;
     margin: auto;
     border: 1px solid black;
     border-radius: 10px;
