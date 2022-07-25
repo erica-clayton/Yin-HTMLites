@@ -45,10 +45,7 @@ body {
 }
 
 .img-north {
-    padding: 2%;
-    background-color: red;
     width: 65%;
-    margin: auto;
 }
 
 img {
@@ -92,13 +89,8 @@ img {
 }
 
 .activity-img {
-<<<<<<< HEAD
     width: 300px;
-    margin: 10px;
-=======
-    width: 150px;
     margin: 10px 10px 10px 20px;
->>>>>>> 8e6fa65190951cc2f71b86f519628bae3010eb83
     border-radius: 10px;
     border: 1px solid black;
 }
