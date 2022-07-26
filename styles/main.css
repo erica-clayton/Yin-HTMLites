@@ -46,9 +46,11 @@ body {
 
 .img-west {
     padding: 2%;
-    background-color: red;
+    border: 10px solid #ff6b6b;
     width: 65%;
-    margin: auto;
+    margin: 75px auto 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px grey;
 }
 
 img {
@@ -93,9 +95,11 @@ img {
 
 .city-summary {
     text-align: center;
-    background-color: gray;
+    color:#292f36;  
     width: 65%;
     margin: auto;
+    font-style: italic;
+    font-size: 1.5em;
 }
 
 .activity-img {
