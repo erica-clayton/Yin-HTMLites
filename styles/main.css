@@ -42,6 +42,64 @@ body {
     margin: 75px auto 0px;
     border-radius: 20px;
     box-shadow: 0 0 8px grey;
+    position: relative;
+}
+
+.compass-dir {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-family: 'Pattaya', "sans-serif";
+}
+
+.compass-dir:hover {
+    color: gold;
+}
+
+.n {
+    left: 46.5%;
+    top: 7%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.w {
+    left: 7%;
+    top: 40.5%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.e {
+    right: 7%;
+    top: 40.5%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.s {
+    left: 45.5%;
+    bottom: 10%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
 }
 
 img {
