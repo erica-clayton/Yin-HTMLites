@@ -1,0 +1,23 @@
+body {
+    cursor:url(../images/demi.gif), auto;
+}
+
+#hero-img:hover {
+    border: 10px solid red;
+    filter:grayscale(100%);
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
