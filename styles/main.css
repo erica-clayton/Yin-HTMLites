@@ -7,6 +7,7 @@
     height: 50px;
     width: 100%;
     align-items: center;
+    z-index: 1;
 }
 
 .navHeader a {
@@ -16,7 +17,7 @@
 
 .navLinks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     padding: 0;
 }
@@ -24,6 +25,14 @@
 .navLinks li {
     list-style: none;
     padding: 0;
+}
+
+.navLinks a:hover {
+    color: gold;
+}
+
+.navLinks li:hover {
+    transform: scale(1.1);
 }
 
 /* Color selections: white, #f7fff7,#292f36, #4ecdc4, #ff6b6b, #ffe66d,   */
@@ -43,21 +52,87 @@ body {
     margin: 75px auto 0px;
     border-radius: 20px;
     box-shadow: 0 0 8px grey;
+    position: relative;
+    z-index: 0;
 }
 
-
-.img-north {
-    width: 65%;
+.compass-dir {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-family: 'Pattaya', "sans-serif";
 }
-.img-east{
 
-    width: 65%;
+.compass-dir:hover {
+    color: gold;
+}
+
+.n {
+    left: 46.5%;
+    top: 7%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.w {
+    left: 7%;
+    top: 40.5%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.e {
+    right: 7%;
+    top: 40.5%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.s {
+    left: 45.5%;
+    bottom: 10%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
 }
 
 .img-west {
     width: 65%;
 }
 
+.img-north {
+    width: 65%;
+}
+
+.img-east {
+
+    width: 65%;
+}
+
+<<<<<<< HEAD
+.img-west {
+    width: 65%;
+}
+
+=======
+>>>>>>> f980c91b01966ebe98ede70f0284e6044dbab088
 img {
     width: 100%;
     border-radius: 20px;
@@ -100,21 +175,36 @@ img {
 
 .city-summary {
     text-align: center;
-    background-color: gray;
+    color: #292f36;
     width: 65%;
     margin: auto;
+    font-style: italic;
+    font-size: 1.5em;
 }
 
 .activity-img {
+<<<<<<< HEAD
     width: 300px;
+=======
+    width: 30%;
+>>>>>>> f980c91b01966ebe98ede70f0284e6044dbab088
     margin: 10px 10px 10px 20px;
     border-radius: 10px;
     border: 1px solid black;
 }
 
+.activity-section {
+    width: 65%;
+    box-shadow: 0 0 8px gray;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 0;
+}
+
 .activity-card {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     width: 65%;
     margin: auto;
     border-bottom-right-radius: 10px;
@@ -122,19 +212,29 @@ img {
     border: 6px solid #ff6b6b;
 
     box-shadow: 0 0 8px grey;
+=======
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 6px solid #ff6b6b;
+>>>>>>> f980c91b01966ebe98ede70f0284e6044dbab088
     background-color: whitesmoke;
 }
 
 .activity-section>h3 {
-    width: 65%;
-    margin: 20px auto 0px auto;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
     text-align: center;
-    background-color: black;
-    box-shadow: 0 0 8px grey;
-    border: 1px solid black;
+    color: white;
+    background-color: #ff6b6b;
+    border: 6px solid #ff6b6b;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 
 .activity-card li {
     padding-bottom: 15px;
