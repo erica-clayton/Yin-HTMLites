@@ -7,6 +7,7 @@
     height: 50px;
     width: 100%;
     align-items: center;
+    z-index: 1;
 }
 
 .navHeader a {
@@ -26,6 +27,14 @@
     padding: 0;
 }
 
+.navLinks a:hover {
+    color: gold;
+}
+
+.navLinks li:hover {
+    transform: scale(1.1);
+}
+
 /* Color selections: white, #f7fff7,#292f36, #4ecdc4, #ff6b6b, #ffe66d,   */
 
 body {
@@ -43,6 +52,65 @@ body {
     margin: 75px auto 0px;
     border-radius: 20px;
     box-shadow: 0 0 8px grey;
+    position: relative;
+    z-index: 0;
+}
+
+.compass-dir {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-family: 'Pattaya', "sans-serif";
+}
+
+.compass-dir:hover {
+    color: gold;
+}
+
+.n {
+    left: 46.5%;
+    top: 7%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.w {
+    left: 7%;
+    top: 40.5%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.e {
+    right: 7%;
+    top: 40.5%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.s {
+    left: 45.5%;
+    bottom: 10%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
 }
 
 .img-west {
@@ -53,7 +121,7 @@ body {
     width: 65%;
 }
 
-.img-east{
+.img-east {
 
     width: 65%;
 }
@@ -100,7 +168,7 @@ img {
 
 .city-summary {
     text-align: center;
-    color:#292f36;  
+    color: #292f36;
     width: 65%;
     margin: auto;
     font-style: italic;
@@ -166,4 +234,3 @@ img {
     background-color: white;
     color: #ff6b6b
 }
-
