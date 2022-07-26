@@ -45,7 +45,12 @@ body {
     box-shadow: 0 0 8px grey;
 }
 
+
+.img-north {
+    width: 65%;
+}
 .img-east{
+
     width: 65%;
 }
 
@@ -90,17 +95,16 @@ img {
 }
 
 .activity-img {
-    width: 150px;
+    width: 300px;
     margin: 10px 10px 10px 20px;
     border-radius: 10px;
     border: 1px solid black;
-
 }
 
 .activity-card {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 65%;
     margin: auto;
     border: 6px solid #ff6b6b;
     border-radius: 10px;
