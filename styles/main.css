@@ -126,13 +126,6 @@ body {
     width: 65%;
 }
 
-<<<<<<< HEAD
-.img-west {
-    width: 65%;
-}
-
-=======
->>>>>>> f980c91b01966ebe98ede70f0284e6044dbab088
 img {
     width: 100%;
     border-radius: 20px;
@@ -183,11 +176,7 @@ img {
 }
 
 .activity-img {
-<<<<<<< HEAD
-    width: 300px;
-=======
     width: 30%;
->>>>>>> f980c91b01966ebe98ede70f0284e6044dbab088
     margin: 10px 10px 10px 20px;
     border-radius: 10px;
     border: 1px solid black;
@@ -204,22 +193,12 @@ img {
 .activity-card {
     display: flex;
     align-items: center;
-<<<<<<< HEAD
-    width: 65%;
-    margin: auto;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: 6px solid #ff6b6b;
-
-    box-shadow: 0 0 8px grey;
-=======
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border: 6px solid #ff6b6b;
->>>>>>> f980c91b01966ebe98ede70f0284e6044dbab088
     background-color: whitesmoke;
 }
 
