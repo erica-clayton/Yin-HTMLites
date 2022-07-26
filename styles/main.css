@@ -16,7 +16,7 @@
 
 .navLinks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     padding: 0;
 }
@@ -34,6 +34,7 @@ body {
     background: #f7fff7;
     font-family: 'PT Serif', serif;
 }
+
 
 .img-cont {
     padding: 1%;
@@ -102,6 +103,19 @@ body {
 
 }
 
+.img-west {
+    width: 65%;
+}
+
+.img-north {
+    width: 65%;
+}
+
+.img-east{
+
+    width: 65%;
+}
+
 img {
     width: 100%;
     border-radius: 20px;
@@ -142,30 +156,54 @@ img {
     margin-right: 25px;
 }
 
+.city-summary {
+    text-align: center;
+    color:#292f36;  
+    width: 65%;
+    margin: auto;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
 .activity-img {
-    width: 150px;
+    width: 30%;
     margin: 10px 10px 10px 20px;
     border-radius: 10px;
     border: 1px solid black;
+}
 
+.activity-section {
+    width: 65%;
+    box-shadow: 0 0 8px gray;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 0;
 }
 
 .activity-card {
     display: flex;
     align-items: center;
-    width: 50%;
-    margin: auto;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     border: 6px solid #ff6b6b;
-    border-radius: 10px;
-    box-shadow: 0 0 8px grey;
     background-color: whitesmoke;
 }
 
 .activity-section>h3 {
-    width: 50%;
-    margin: 20px auto 20px auto;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
     text-align: center;
+    color: white;
+    background-color: #ff6b6b;
+    border: 6px solid #ff6b6b;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
 
 .activity-card li {
     padding-bottom: 15px;
@@ -186,3 +224,4 @@ img {
     background-color: white;
     color: #ff6b6b
 }
+
