@@ -35,6 +35,7 @@ body {
     font-family: 'PT Serif', serif;
 }
 
+
 .img-cont {
     padding: 1%;
     border: 10px solid #ff6b6b;
@@ -45,12 +46,16 @@ body {
 }
 
 .img-west {
-    padding: 2%;
-    border: 10px solid #ff6b6b;
     width: 65%;
-    margin: 75px auto 0px;
-    border-radius: 20px;
-    box-shadow: 0 0 8px grey;
+}
+
+.img-north {
+    width: 65%;
+}
+
+.img-east{
+
+    width: 65%;
 }
 
 img {
@@ -107,7 +112,6 @@ img {
     margin: 10px 10px 10px 20px;
     border-radius: 10px;
     border: 1px solid black;
-
 }
 
 .activity-section {
@@ -162,3 +166,4 @@ img {
     background-color: white;
     color: #ff6b6b
 }
+
