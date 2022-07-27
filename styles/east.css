@@ -1,0 +1,210 @@
+.navHeader {
+    background-color: #5196e6;
+    border-top: 1px solid black;
+    border-bottom: 2px solid #ffe96b;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+.navHeader a {
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}
+
+.navLinks li {
+    list-style: none;
+    padding: 0;
+}
+
+
+.navLinks a:hover {
+        color: gold;
+}
+
+.navLinks li:hover {
+    transform: scale(1.1);
+}
+
+.page-desc {
+    text-align: left;
+    background-color: #292f36;
+    color: white;
+    margin-bottom: 0;
+    padding: 15px 0px;
+}
+
+.proj-memb {
+    text-align: right;
+    background-color: white;
+    margin-top: 0px;
+}
+
+/* Color selections: white, #f7fff7,#292f36, #4ecdc4, #ff6b6b, #ffe66d,   */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f7fff7;
+    font-family: 'PT Serif', serif;
+    
+}
+
+
+.img-cont {
+    padding: 2px;
+    border: 10px solid #ffe96b;
+    width: 15%;
+    margin: 75px auto 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgb(215, 71, 71);
+    position: relative;
+    z-index: 0;
+}
+
+
+.img-east {
+
+    width: 38%;
+    height: 20%;
+    transform: skewX(30deg)
+}
+
+
+
+img {
+    width: 65%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+.city-summary {
+    text-align: center;
+    color: #cb15db;
+    width: 65%;
+    margin: auto;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.activity-img {
+    width: 30%;
+    margin: 10px 10px 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(142, 44, 114);
+}
+
+.activity-section {
+    width: 65%;
+    box-shadow: 0 0 8px gray;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.activity-card {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 50pxpx solid #ffe96b;
+    background-color: rgb(163, 34, 34);
+}
+
+.activity-section>h3 {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    background-color: #ffe96b;
+    border: 10px solid #ffe96b;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+}
+
+
+.activity-card li {
+    padding-bottom: 20px;
+    list-style: none;
+    padding-right: 15px;
+}
+
+.activity-section a {
+    background-color: #ffe96b;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    border: 1px solid #292f36;
+    padding: 0.5px 5px;
+}
+
+.activity-section a:hover {
+    background-color: rgb(236, 42, 181);
+    color: #ffe96b
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+   
+   .navLinks ul{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     align-items: center;
+   }
+   
+   .navLinks li{
+     list-style: none;
+     font-size: 3em;
+     letter-spacing: 5px;
+     transition: 1s;
+   }
+  
+  .navLinks  li:hover{
+     filter: blur(70px);
+     opacity: 0;
+   }
+
+   .to-do-list ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+  }
+  
+  .to-do-list li{
+    list-style: none;
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    transition: 20s;
+  }
+ 
+  .to-do-list li:hover{
+    filter: blur(90px);
+    opacity: 0;
+  }
+  
+   
+ 
+    
+  
