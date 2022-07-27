@@ -1,0 +1,246 @@
+.navHeader {
+    background-color: #292f36;
+    border-top: 1px solid black;
+    border-bottom: 2px solid orangered;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+.navHeader a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}
+
+.navLinks li {
+    list-style: none;
+    padding: 0;
+}
+
+.navLinks a:hover {
+    color: orangered;
+}
+
+.navLinks li:hover {
+    transform: scale(75.0);
+}
+
+/* Color selections: white, #f7fff7,#292f36, #4ecdc4, #ff6b6b, #ffe66d,   */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f7fff7;
+    font-family: 'Creepster', cursive;
+    cursor: wait;
+}
+
+
+.img-cont {
+    padding: 1%;
+    border: 10px solid orangered;
+    width: 15%;
+    margin: 75px auto 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 1500px black;
+    position: relative;
+    z-index: 0;
+}
+
+.compass-dir {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    text-decoration: none;
+    color: rgb(26, 24, 24);
+    font-family: 'Pattaya', "sans-serif";
+}
+
+.compass-dir:hover {
+    color: gold;
+}
+
+.n {
+    left: 46.5%;
+    top: 7%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.w {
+    left: 7%;
+    top: 40.5%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.e {
+    right: 7%;
+    top: 40.5%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.s {
+    left: 45.5%;
+    bottom: 10%;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2vw;
+    border: 2px white solid;
+
+}
+
+.img-west {
+    width: 65%;
+}
+
+.img-north {
+    width: 65%;
+}
+
+.img-east {
+
+    width: 65%;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.img-south {
+    width: 65%;
+}
+
+.page-desc {
+    text-align: center;
+    background-color: #292f36;
+    color: white;
+    margin-bottom: 0;
+    padding: 15px 0px;
+}
+
+.proj-memb {
+    text-align: center;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.proj-memb h2 {
+    border-bottom: 2px solid orangered;
+    margin-top: 0;
+    padding: 10px 0px;
+}
+
+.proj-memb ul {
+    display: flex;
+    justify-content: center;
+}
+
+.proj-memb li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.city-summary {
+    text-align: center;
+    color: #292f36;
+    width: 65%;
+    margin: auto;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.activity-img {
+    width: 33%;
+    margin: 10px 10px 10px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.activity-img:hover {
+    width: 12%;
+    height: 300px;
+    transform: rotate(90deg);
+}
+
+.activity-section {
+    width: 65%;
+    box-shadow: 0 0 1500px black;
+    margin: 40px auto;
+    border-radius: 400px;
+    padding: 0;
+}
+
+.activity-card {
+    display: flex;
+    align-items:flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 6px solid orangered;
+    background-color: darkgreen;
+}
+
+.activity-section>h3 {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    border: 6px solid orangered;
+    border-radius: 400px;
+}
+
+
+.activity-card li {
+    padding-bottom: 15px;
+    list-style: georgian;
+    padding-right: 15px;
+    
+}
+
+.activity-section a {
+    background-color: orangered;
+    box-shadow: 0 0 25px black;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    border: 1px solid #292f36;
+    padding: 0.5px 5px;
+}
+
+.activity-section a:hover {
+    background-color: white;
+    color: orangered;
+}
