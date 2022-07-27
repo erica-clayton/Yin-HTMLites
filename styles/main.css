@@ -190,6 +190,23 @@ img {
     padding: 0;
 }
 
+@media only screen and (max-width: 1000px) {
+    .activity-card {
+        flex-direction: column;
+    }
+
+    .activity-card img {
+        width: 70%;
+    }
+
+    .activity-section {
+        width: 90%;
+    }
+}
+
+
+
+
 .activity-card {
     display: flex;
     align-items: center;
