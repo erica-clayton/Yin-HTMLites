@@ -1,18 +1,19 @@
 .navHeader {
     background-color: #292f36;
     border-top: 1px solid black;
-    border-bottom: 2px solid #ff6b6b;
+    border-bottom: 2px solid green;
     position: fixed;
     top: 0;
     height: 50px;
     width: 100%;
     align-items: center;
     z-index: 1;
+    font-size: 1vw;
 }
 
 .navHeader a {
     text-decoration: none;
-    color: white;
+    color: gold;
 }
 
 .navLinks {
@@ -27,27 +28,28 @@
     padding: 0;
 }
 
-.navLinks a:hover {
-    color: gold;
+.navLinks:hover>li {
+    position: relative;
+    top: 80px;
+    right: 20px;
 }
 
-.navLinks li:hover {
-    transform: scale(1.1);
-}
-
-/* Color selections: white, #f7fff7,#292f36, #4ecdc4, #ff6b6b, #ffe66d,   */
 
 body {
     margin: 0;
     padding: 0;
-    background: #f7fff7;
+    background: purple;
     font-family: 'PT Serif', serif;
+    animation-name: strobe;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform: scaleY(-1);
 }
 
 
 .img-cont {
     padding: 1%;
-    border: 10px solid #ff6b6b;
+    border: 10px solid green;
     width: 15%;
     margin: 75px auto 0px;
     border-radius: 20px;
@@ -56,75 +58,6 @@ body {
     z-index: 0;
 }
 
-.compass-dir {
-    position: absolute;
-    width: 10%;
-    height: 10%;
-    text-decoration: none;
-    color: rgb(26, 24, 24);
-    font-family: 'Pattaya', "sans-serif";
-}
-
-.compass-dir:hover {
-    color: gold;
-}
-
-.n {
-    left: 46.5%;
-    top: 7%;
-    background-color: white;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 2vw;
-    border: 2px white solid;
-
-}
-
-.w {
-    left: 7%;
-    top: 40.5%;
-    background-color: white;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 2vw;
-    border: 2px white solid;
-
-}
-
-.e {
-    right: 7%;
-    top: 40.5%;
-    background-color: white;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 2vw;
-    border: 2px white solid;
-
-}
-
-.s {
-    left: 45.5%;
-    bottom: 10%;
-    background-color: white;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 2vw;
-    border: 2px white solid;
-
-}
-
-.img-west {
-    width: 65%;
-}
-
-.img-north {
-    width: 65%;
-}
-
-.img-east {
-
-    width: 65%;
-}
 
 img {
     width: 100%;
@@ -151,7 +84,7 @@ img {
 }
 
 .proj-memb h2 {
-    border-bottom: 2px solid #ff6b6b;
+    border-bottom: 2px solid green;
     margin-top: 0;
     padding: 10px 0px;
 }
@@ -182,6 +115,7 @@ img {
     border: 1px solid black;
 }
 
+
 .activity-section {
     width: 65%;
     box-shadow: 0 0 8px gray;
@@ -198,7 +132,7 @@ img {
     margin: 0 auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    border: 6px solid #ff6b6b;
+    border: 6px solid green;
     background-color: whitesmoke;
 }
 
@@ -208,8 +142,8 @@ img {
     box-sizing: border-box;
     text-align: center;
     color: white;
-    background-color: #ff6b6b;
-    border: 6px solid #ff6b6b;
+    background-color: green;
+    border: 6px solid green;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -219,21 +153,29 @@ img {
     padding-bottom: 15px;
     list-style: none;
     padding-right: 15px;
+    width: 200%;
+}
+
+.activity-card li:hover {
+    transform: scaleY(-1)
 }
 
 .activity-section a {
     background-color: #ff6b6b;
     text-decoration: none;
     color: white;
-    font-size: 1.1em;
+    font-size: 2em;
     border: 1px solid #292f36;
     padding: 0.5px 5px;
 }
 
-.activity-section a:hover {
+.activity-section li:hover>a {
     background-color: white;
-    color: #ff6b6b
+    color: #ff6b6b;
+    transform: scale(0);
+    display: inline-block;
 }
+
 
 .upside-dwn {
     border: 6px solid #ff6b6b;
@@ -243,21 +185,31 @@ img {
     text-align: center;
     border-radius: 10px;
     font-size: 1.1vw;
-    transform: scale(1, -1);
     border-top: 2px solid #ff6b6b;
     border-bottom: 2px solid #ff6b6b;
+    transform: scaleY(-1);
 }
 
 .upside-dwn a {
     text-decoration: none;
-    color: #292f36;
+    color: #292929;
 }
 
 .upside-dwn:hover {
-    background-color: #292f36;
+    background-color: #292929;
     border-color: gold;
 }
 
 .upside-dwn:hover>a {
     color: white;
+}
+
+@keyframes strobe {
+    from {
+        background-color: purple;
+    }
+
+    to {
+        background-color: orange;
+    }
 }
